@@ -2,7 +2,7 @@
 This is a simple JWT Api , where a JWT token is signed and created by hitting the end "/login" endpoint. The JWT token can be verified by hitting the "/verification" endpoint.
 
 Steps to setup:
-1) First install all the required modules by initialising npm, by using the cammand `npm init`.
+1) First install all the required modules by initialising npm, by using the command `npm init`.
 2) Next, install all the required modules by using the command `npm i`.
 3) The module's which are used in this API are Express, dotenv , jsonwebtoken.
 4) Next, make a .env file in the root directory of the project, now add a variable named `Secret_token`, and give whatever token you want.
@@ -16,5 +16,5 @@ Steps to setup:
 12) The Server will return the data back, which was provided in the `/login` endpoint.
 13) If the token is not valid, an error will be displaced.
 
-Congratulation!!, You have Successfully created as well as verified you own JWT token.
+Congratulation!!, You have Successfully created as well as verified your own JWT token.
 
